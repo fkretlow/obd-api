@@ -1,4 +1,4 @@
-module.exports = async (req, res) {
+module.exports = async (req, res) => {
   let { headers, method } = req;
 
   if (method === "OPTIONS") {
