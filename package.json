@@ -1,0 +1,26 @@
+{
+  "name": "obd-api",
+  "version": "0.0.1",
+  "description": "simple forwarding server to circumvent CORS shenanigans with the OEKOBAU.DAT",
+  "main": "./src/local.js",
+  "scripts": {
+    "start": "node ./src/local.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fkretlow/obd-api.git"
+  },
+  "author": "Florian Kretlow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fkretlow/obd-api/issues"
+  },
+  "homepage": "https://github.com/fkretlow/obd-api#readme",
+  "dependencies": {
+    "bent": "^7.3.12",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "xml2js": "^0.4.23"
+  }
+}
